@@ -1,6 +1,3 @@
-Certainly! Here’s a sample `README.md` file content for your GitHub repository that focuses on your React Native learning journey. You can customize it further based on the specific details of your project.
-
----
 
 # React Native Learning Repository
 
