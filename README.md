@@ -95,7 +95,7 @@ Feel free to fork this repository and make contributions! If you have suggestion
 
 ## 📫 Contact
 
-For any questions or feedback, you can reach me at [your-email@example.com](mailto:your-email@example.com).
+For any questions or feedback, you can reach me at [umalepralay19@gmailcom](mailto:umalepralay19@gmailcom).
 
 ## 🎓 Acknowledgements
 
