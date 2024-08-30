@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "componentdidupdate",
+    "slug": "snack-e3c7a073-dd1d-48e7-a8bf-257644b79e68",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "using useEffect hook as componentDidUpdate life cycle of the Components."
+  }
+}
