@@ -1,11 +1,86 @@
-# Sample Snack app
+# React Native Counter App
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This is a simple React Native application demonstrating the use of the `useEffect` hook for handling component updates. The app features two counters: one for incrementing and one for decrementing. 
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **Increment Counter:** Increases the `count` state by 1.
+- **Decrement Counter:** Decreases the `ncount` state by 1.
+- **Console Logging:** Logs messages to the console whenever the `count` or `ncount` state is updated.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Components
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **App:** The main component that contains the counters and buttons.
+- **User:** A separate component (not detailed here) that receives the `count` and `ncount` as props.
+
+## Setup
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Pralay6/ReactNative/componentdidupdate.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd componentdidupdate
+   ```
+
+3. **Install dependencies:**
+
+   Make sure you have Node.js installed. Then, run:
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the project:**
+
+   For iOS:
+
+   ```bash
+   npx react-native run-ios
+   ```
+
+   For Android:
+
+   ```bash
+   npx react-native run-android
+   ```
+
+## Code Overview
+
+### `App.js`
+
+The main file of the application where the following functionalities are implemented:
+
+- **State Management:** 
+  - `count` state for the increment counter.
+  - `ncount` state for the decrement counter.
+  
+- **Effect Hooks:**
+  - `useEffect` hook for logging when the `count` state is updated.
+  - `useEffect` hook for logging when the `ncount` state is updated.
+
+- **UI Components:**
+  - `View`, `Text`, and `Button` components to render the counters and interaction buttons.
+
+### `User.js`
+
+This component (assumed to be in `./components/User`) is used to display or manage the `count` and `ncount` values passed as props. The implementation details are not provided in the current snippet.
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you find any bugs or want to contribute new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- React Native documentation
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html) for managing component state and side effects.
