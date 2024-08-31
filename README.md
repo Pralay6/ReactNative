@@ -1,103 +1,63 @@
+# Radio Button Example in React Native
 
-# React Native Learning Repository
+This is a simple React Native application that demonstrates how to create and manage custom radio buttons using the `TouchableOpacity` component.
 
-Welcome to my React Native Learning Repository! This project is a collection of small, focused exercises and experiments I have undertaken as part of my journey to learn React Native. Each section of this repository explores different aspects and features of React Native, from basic concepts to more advanced topics.
+## Features
 
-## 📚 Overview
+- Two radio buttons that the user can select.
+- The selected radio button is highlighted with a black background.
 
-This repository includes:
+## Prerequisites
 
-- **Small Projects:** Individual projects or components that demonstrate specific React Native features or concepts.
-- **Code Snippets:** Useful pieces of code illustrating common patterns or solutions to problems.
+Make sure you have the following installed:
 
-## 🚀 Getting Started
+- [Node.js](https://nodejs.org/) 
+- [React Native CLI](https://reactnative.dev/docs/environment-setup) 
+- [Android Studio](https://developer.android.com/studio) or [Xcode](https://developer.apple.com/xcode/) (for running the app on an emulator)
 
-To get started with this repository, follow these steps:
+## Getting Started
 
-1. **Clone the Repository:**
+1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/Pralay6/ReactNative.git
-   ```
+    ```bash
+    git clone https://github.com/Pralay6/Radio.git
+    cd Radio
+    ```
 
-2. **Navigate to the Project Directory:**
+2. **Install dependencies:**
 
-   ```bash
-   cd your-repo-name
-   ```
+    ```bash
+    npm install
+    ```
 
-3. **Install Dependencies:**
+3. **Run the application:**
 
-   Make sure you have Node.js and npm (or Yarn) installed. Then, install the required packages:
+    - For Android:
 
-   ```bash
-   npm install
-   ```
+      ```bash
+      npx react-native run-android
+      ```
 
-   or
+    - For iOS:
 
-   ```bash
-   yarn install
-   ```
+      ```bash
+      npx react-native run-ios
+      ```
 
-4. **Run the Project:**
+## Code Explanation
 
-   To start the React Native development server, use:
+The main code is in the `App.js` file:
 
-   ```bash
-   npm start
-   ```
+- The state `selectedRadio` tracks which radio button is selected.
+- The `TouchableOpacity` component is used for the radio buttons, and the selected radio button is highlighted by changing its background color to black.
 
-   or
+## License
 
-   ```bash
-   yarn start
-   ```
+This project is licensed under the MIT License. Please take a look at the [LICENSE](LICENSE) file for details.
 
-   Follow the on-screen instructions to open the project in an emulator or on a physical device.
+## Contact
 
-## 📝 Learning Topics
+For any questions or issues, feel free to reach out:
 
-Here are some of the topics and features covered in this repository:
-
-- **Basic Components:** Understanding core components like View, Text, and Image.
-- **Navigation:** Implementing navigation using React Navigation.
-- **State Management:** Using hooks like `useState` and `useEffect`.
-- **Styling:** Applying styles with StyleSheet and responsive design principles.
-- **API Integration:** Fetching and displaying data from external APIs.
-- **Performance Optimization:** Techniques for improving app performance.
-
-Each project or code snippet is organized in its own directory with a README file explaining the specific topic and how to use the code.
-
-## 📂 Project Structure
-
-The repository is organized as follows:
-
-```
-/
-├── topic1/
-│   ├── src/
-│   ├── README.md
-│   └── ...
-├── topic2/
-│   ├── src/
-│   ├── README.md
-│   └── ...
-└── README.md
-```
-
-## 🤝 Contributing
-
-Feel free to fork this repository and make contributions! If you have suggestions for topics or improvements, please create an issue or submit a pull request.
-
-## 📫 Contact
-
-For any questions or feedback, you can reach me at [umalepralay19@gmailcom](mailto:umalepralay19@gmailcom).
-
-## 🎓 Acknowledgements
-
-Special thanks to the React Native community and the many resources available online that have helped me in my learning journey.
-
-
-Happy coding! 🚀
-
+- **Email:** [umalepralay19@gmai.com](mailto:umalepralay19@gmai.com)
+- **GitHub:** [Pralay6](https://github.com/Pralay6)
