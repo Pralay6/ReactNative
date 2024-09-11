@@ -1,11 +1,64 @@
-# Sample Snack app
+# Radio Button Example in React Native
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+This is a simple React Native application that demonstrates how to create and manage custom radio buttons using the `TouchableOpacity` component.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Two radio buttons that the user can select.
+- The selected radio button is highlighted with a black background.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Prerequisites
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) 
+- [React Native CLI](https://reactnative.dev/docs/environment-setup) 
+- [Android Studio](https://developer.android.com/studio) or [Xcode](https://developer.apple.com/xcode/) (for running the app on an emulator)
+
+## Getting Started
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/Pralay6/Radio.git
+    cd Radio
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the application:**
+
+    - For Android:
+
+      ```bash
+      npx react-native run-android
+      ```
+
+    - For iOS:
+
+      ```bash
+      npx react-native run-ios
+      ```
+
+## Code Explanation
+
+The main code is in the `App.js` file:
+
+- The state `selectedRadio` tracks which radio button is selected.
+- The `TouchableOpacity` component is used for the radio buttons, and the selected radio button is highlighted by changing its background color to black.
+
+## License
+
+This project is licensed under the MIT License. Please take a look at the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or issues, feel free to reach out:
+
+- **Email:** [umalepralay19@gmai.com](mailto:umalepralay19@gmai.com)
+- **GitHub:** [Pralay6](https://github.com/Pralay6)
+
